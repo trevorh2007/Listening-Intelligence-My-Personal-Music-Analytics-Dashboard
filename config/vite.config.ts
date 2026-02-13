@@ -66,7 +66,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     ...baseConfig,
-    base: "/listening-intelligence/",
+    base: "/Listening-Intelligence-My-Personal-Music-Analytics-Dashboard/",
     server: {
       port: 3000,
       open: true,
