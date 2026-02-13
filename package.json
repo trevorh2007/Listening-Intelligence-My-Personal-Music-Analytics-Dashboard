@@ -33,7 +33,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --config config/eslint.config.cjs",
     "lint:eslint": "eslint . --ext .js,.jsx,.ts,.tsx --config config/eslint.config.cjs",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --config config/eslint.config.js --fix",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --config config/eslint.config.cjs --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\" --config config/prettier.config.js",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\" --config config/prettier.config.js",
     "format:staged": "prettier --write --config config/prettier.config.js",
